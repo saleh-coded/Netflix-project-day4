@@ -1,0 +1,328 @@
+body {
+    background-color: black;
+}
+
+/* body {
+    background-image: url("../assets/pokemon-bg.jpg") 
+} */
+
+.top {
+    height: 50px;
+    /* width: 100%; */
+    display:flex;
+    justify-content:flex-start;
+    
+}
+
+.second {
+    height: 400px;
+    /* width: 100%; */
+    /* display:flex;
+    justify-content:flex-end; */
+    
+}
+
+.third {
+    height: 400px;
+    /* width: 100%; */
+    display:flex;
+    justify-content:center; 
+    
+}
+
+.main-title {
+    text-align: center;
+    color: white;
+
+}
+
+.main-title3 {
+
+    text-align:justify;
+    color: white;
+
+    padding: 1px;
+    margin: 45px;
+
+}
+
+.main-title1-x {
+    text-align: center;
+    color: red;
+
+    /* position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    color: red;
+    text-align: center;
+    height: 10%;
+    box-sizing: border-box;
+    min-height: auto;
+    padding: 3.5rem 0; */
+
+}
+
+
+.main-paragraph-x {
+    text-align: center;
+    color: red;
+
+    /* position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    color: red;
+    text-align: center;
+    height: 10%;
+    box-sizing: border-box;
+    min-height: auto;
+    padding: 3.5rem 0; */
+
+}
+
+.section-top {
+    display:flex;
+    flex-direction:row;
+    padding: 5px;
+    margin: 2px;
+    justify-content:space-between;
+    align-items:flex-start; 
+
+}
+
+
+.section-one {
+    display:flex;
+    flex-direction: column;
+    
+    padding: 100px;
+    margin: 2px;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+
+}
+
+.section-onenew {
+    display:flex;
+    flex-direction: column;
+    
+    padding: 20px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.section-twonew {
+    display:flex;
+    flex-direction: row;
+    
+    padding: 20px;
+    margin: 20px;
+    justify-content:space-between;
+    align-items: center;
+
+    flex-wrap: wrap;
+    gap: 20px;
+    /* text-anchor:start; */
+    /* height: 200px;
+    width: 100 px; */
+    
+
+}
+
+.section-two {
+    display:flex;
+    flex-direction: row;
+    
+    padding: 20px;
+    margin: 20px;
+    justify-content: center;
+    align-items:center;
+}
+
+
+.section-twotext {
+    justify-content: center;
+    justify-items:center;
+    text-align:justify;
+    color: white;
+}
+
+.section-twoimage {
+
+    
+    padding: 5px;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.section-three {
+    display:flex;
+    flex-direction: column;
+    
+    padding: 20px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-threetext {
+    justify-content: center;
+    justify-items:center;
+    text-align:justify;
+    color: white;
+}
+
+.section-threeimage {
+
+    /* display:flex; */
+    padding: 5px;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.box {
+    border: 1px solid;
+
+    /* padding: 1px;
+    margin: 1px; */
+    background-image: url("./first_background.jpg")
+    
+
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    padding: 5px;
+    margin: 5px;
+    gap: 5px;
+    
+
+}
+
+button {
+    background-color: rgb(238, 36, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    }
+
+.button1 {
+    background-color:black;
+    color: white;
+    border: 2px solid  gray; /* gray */
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+
+    
+    }
+
+.button2 {
+    background-color:black;
+    color: white;
+    border: 2px solid  gray; /* gray */
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+}
+
+
+
+.button-top {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    gap: 5px;
+}
+
+.button-bottom {
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items:flex-start;
+    gap: 5px;
+
+    padding: 1px;
+    margin: 30px;
+}
+
+
+.button-position {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    gap: 5px;
+}
+
+
+
+.divider {
+    width: 100%;
+    height: 0.5rem;
+    position:relative;
+    bottom: -0.5rem;
+    background-color: rgb(54, 53, 53);
+}
+
+
+.collapsible {
+    background-color: #3c3a3a;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 90%;
+    border:#777;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    margin: 1px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #555;
+  }
+  
+  .collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+  }
